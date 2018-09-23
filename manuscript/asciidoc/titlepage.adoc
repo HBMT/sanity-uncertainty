@@ -1,0 +1,28 @@
+[#titlepage]
+= {booktitle}
+
+[role=titlepage-author]
+{author}
+
+image::{pubs-logo}[role=titlepage-pubs-logo]
+
+[role=titlepage-publisher]
+{publisher-name}
+
+[role=titlepage-publisher-website]
+link:{publisher-link-url}[{publisher-link-name}]
+
+<<<
+
+[quote, role=quote]
+____
+This booklet is a reprint from the book, +
+'`Servant of Reality,`' published by Aruno Publications, +
+available for free distribution at +
+www.forestsangha.org
+____
+
+<<<
+
+image::01-mh-shrineroom.jpg[image]
+

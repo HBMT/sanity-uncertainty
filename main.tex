@@ -1,0 +1,110 @@
+\documentclass[
+  final,
+  babelLanguage=british,
+  %desktopVersion,
+  %showtrims,
+  %overleaf,
+]{anecdote}
+
+\graphicspath{{./assets/photos/300dpi/}}
+
+% Page size: 120 x 135mm
+% Body text: 11 / 13.6 pt
+
+\usepackage{local}
+
+%% Details of the book
+%% ===================
+
+\title{Sanity in the Midst of Uncertainty}
+\subtitle{}
+\author{Ajahn Munindo}
+\publisher{Aruno Publications}
+\date{2018-09-18}
+\editionInfo{\textit{First edition}, printed in Great Britain, 2018}
+\ISBN{978-1-908444-65-3}
+
+% === Metadata ===
+
+\hypersetup{
+  pdftitle={\thetitle},
+  pdfauthor={\theauthor},
+  pdfcopyright={Copyright (C) 2018, \thePublisher},
+  pdfsubject={},
+  pdfkeywords={},
+  pdflicenseurl={https://creativecommons.org/licenses/by-nc-nd/4.0/},
+  pdfcontacturl={},
+  pdflang={en},
+}
+
+% macro missing from LuaTeX 2018
+%\pdfinfo{%
+%  /Title (\thetitle)%
+%  /Author (\theauthor)
+%  /Subject (Sobre o Amor)
+%  /Keywords (buddhism, Dhamma, love, budismo, amor, Ajahn Jayasaro)
+%  /GTS_PDFXVersion (PDF/X-1:2001)%
+%  /GTS_PDFXConformance (PDF/X-1a:2001)%
+%}
+
+%% === Load further packages ===
+
+%% === Hyphenation exceptions and corrections ===
+
+\hyphenation{London kalyāṇa-mitta pāpa-mitta}
+
+\begin{document}
+
+\frontmatter
+
+\ifdesktopversion
+\desktopCover{\includegraphics[height=\paperheight]{./desktop-cover-web.png}}
+\fi
+
+\input{./manuscript/tex/copyright.tex}
+
+%\cleartorecto
+%\tableofcontents*
+
+%\input{./manuscript/tex/titlepage.tex}
+
+\clearpage
+
+\mbox{}\thispagestyle{empty}
+\vfill
+
+{\centering
+  \resizebox*{!}{45mm}{%
+    \fontsize{20}{20}\color[gray]{0.8}%
+    \sanghaIconsFont B%
+  }
+\par}
+
+\vfill
+
+{\centering\itshape\fontsize{9}{13}\selectfont
+This booklet is a reprint from the book,\\
+`Servant of Reality,' published by Aruno Publications,\\
+available for free distribution at\\
+www.forestsangha.org
+\par}
+
+\clearpage\mbox{}\thispagestyle{empty}
+
+\clearpage\mbox{}\thispagestyle{empty}
+\photoFullBleed{01-mh-shrineroom.jpg}
+
+% Page 1 is the first page of the first chapter.
+\mainmatter
+
+\input{./manuscript/tex/sanity.tex}
+
+\backmatter
+
+\input{./manuscript/tex/references.tex}
+
+\input{./manuscript/tex/about-the-author.tex}
+
+\input{./manuscript/tex/copyright-details.tex}
+
+\end{document}

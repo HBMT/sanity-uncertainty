@@ -1,0 +1,32 @@
+= Sanity in the Midst of Uncertainty
+:booktitle: {doctitle}
+:author: Ajahn Munindo
+:creator: {author}
+:version: v1.0
+:revdate: 2018-09-18
+:doctype: book
+:lang: en
+:pubs-logo: aruno-pubs.jpg
+:publisher-name: Aruno Publications
+:publisher-link-name: www.ratanagiri.org.uk
+:publisher-link-url: https://ratanagiri.org.uk/
+:source: https://forestsangha.org
+:keywords: Ajahn Munindo, Dhamma, Buddhism, RELIGION / Buddhism / Theravada
+:copyright: CC-BY-NC-ND 4.0
+:isbn: 978-1-908444-66-0
+:identifier: isbn:{isbn}
+:imagesdir: assets/photos/92dpi-ebook-sRGB
+:includes: manuscript/asciidoc
+:front-cover-image: image:desktop-cover-ebook.png[Front Cover,800,1200]
+:toc: left
+:toc-title: Contents
+:toclevels: 0
+
+include::{includes}/titlepage.adoc[]
+
+include::{includes}/sanity.adoc[]
+
+include::{includes}/about-the-author.adoc[]
+
+include::{includes}/copyright.adoc[]
+
