@@ -14,7 +14,7 @@ document:
 	$(LATEX) $(LATEX_OPTS) $(FILE).tex
 
 html:
-	asciidoctor -D output stillness-flowing.adoc
+	asciidoctor -D output manuscript/asciidoc/sanity-web.adoc
 
 epub:
 	./helpers/generate_epub.sh $(FILE)
