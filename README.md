@@ -9,8 +9,6 @@ ISBN for paperback: `978-1-908444-65-3`
 
 ISBN for ebooks: `978-1-908444-66-0`
 
-See the final files in the `publish/final/` folder.
-
 Based on [prophecy-template].
 
 Github: <https://github.com/profound-labs/prophecy-template>
